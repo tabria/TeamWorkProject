@@ -1,0 +1,36 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="56511d5f-c6d7-4f29-9039-2b280fdaa1f5">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="73e32f38-aefb-4419-80dd-7102b5a3ae1e">
+            <Content.Layers>
+                <Layer Id="a8ebf5c9-1029-4506-9c18-0f826dcdacfb" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="6c5d103f-8c42-4367-8560-c6bfc6cafc8d" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="02bf379a-426f-4efa-acbe-35f2db94050a" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="739c4432-146d-41fc-bced-eb1c49a9749b" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/30/2017 21:13:17" Id="6bc327f8-2c35-4fa3-a1c6-681854259e97">
+            <Scene.KeyFrames>
+                <KeyFrame Id="27b1e31f-8f24-4f3b-b27d-830e578a94d6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a8ebf5c9-1029-4506-9c18-0f826dcdacfb">
+                            <Add.Item>
+                                <TextArea FontFamily="Arial Black" Id="50e3d64f-8109-4fbc-8316-25d9734f7073" Panel.Bounds="94,301,412{5,2147483647},218{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

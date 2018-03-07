@@ -1,0 +1,485 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                Id="77764b15-3f82-4169-a2a9-281d6d81a083" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="890c85db-48a6-40ea-8f08-ebaa4c500611">
+            <Content.Layers>
+                <Layer Id="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="f88c005e-290e-4c78-abea-16755c99acfa" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="729173d6-033d-46a1-ac4c-6105ea18c16b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="7b1d1b17-4f9c-4e96-a260-d91f17f348fa" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/30/2017 19:49:56" Id="93249076-0585-489f-9668-2d891d12b593">
+            <Scene.KeyFrames>
+                <KeyFrame Id="eb90a6fc-bf02-4555-9624-2a591e85db6f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Grid FontSize="13" HeaderFontSize="13" Id="71a5720d-8185-408f-a9ea-d80eda0b11d3" Panel.Bounds="22,148,982{5,2147483647},462{5,2147483647}">
+                                    <Grid.HeaderRow>
+                                        <GridHeaderRow FontStyle="" Height="32" Id="f675d08f-ac81-4189-8aaf-d76d612f8d44" />
+                                    </Grid.HeaderRow>
+                                    <Grid.Columns>
+                                        <GridColumn ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Type="Text" Width="44" Id="a5933cf3-e39e-4cde-a38c-dff7234f2d43">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="№" Opacity="1" Id="57d02fec-626a-4037-830d-33ba9a8c1e5e" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="5b631957-9ed3-406b-90c3-85138b20429a" Type="Text" Width="100" Id="892ca1b3-a002-4d52-8b76-9f8e11d5af94">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="5b631957-9ed3-406b-90c3-85138b20429a" Value="Article ID" Opacity="1" Id="bd3a1aa4-e3ab-4b84-8254-9a6ae4b49c2f" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="219a5bf1-0cd0-4ee1-919e-d8f58f5c7f9d" Type="Text" Width="164" Id="fec22929-7823-4c17-a1f7-636219abd9f8">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="219a5bf1-0cd0-4ee1-919e-d8f58f5c7f9d" Value="Article Title" Opacity="1" Id="6ff7bd96-70e1-490a-a0b3-3a1f7b8cf5a1" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="5b2841b6-4622-489d-b25c-6033d78afd08" Type="Text" Width="203" Id="60bb02e1-4bfb-4e0c-b322-f2b57dbbf102">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="5b2841b6-4622-489d-b25c-6033d78afd08" Value="Description" Opacity="1" Id="fd717ede-31d3-43f0-bba9-30be994913c6" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="6c61da57-0f0e-4175-bb5d-659ffd89df5a" Type="Text" Width="115" Id="a00712fd-3d0f-42f0-a575-c5dec89ec727">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="6c61da57-0f0e-4175-bb5d-659ffd89df5a" Value="Comments" Opacity="1" Id="844cdf28-2df6-4b0a-a889-216a7029dac5" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Type="Text" Width="123" Id="ac870720-b427-4a46-ac0d-8e1cb34b6b08">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Value="Author" Opacity="1" Id="878763e7-6eea-43f4-b7cd-5fe796ec335a" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                        <GridColumn ColumnId="61baa3cc-c7a7-41aa-96a3-e774e99ffc35" Type="Text" Width="218" Id="12ec8721-b1d4-48c3-b030-c9394c427fbb">
+                                            <GridColumn.CellData>
+                                                <GridCellData ColumnId="61baa3cc-c7a7-41aa-96a3-e774e99ffc35" Value="Actions" Opacity="1" Id="f0937967-775e-43d9-991c-e94b9e5c5b1f" />
+                                            </GridColumn.CellData>
+                                        </GridColumn>
+                                    </Grid.Columns>
+                                    <Grid.Rows>
+                                        <GridRow Height="32" Id="0b553fc3-dd4d-4f6e-9959-042213aac0c7">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="1" Opacity="1" Id="9834f068-fabb-4a4c-bde0-8140973fab83" />
+                                                <GridCellData ColumnId="219a5bf1-0cd0-4ee1-919e-d8f58f5c7f9d" Value=" dolor consequat accusam clita..." Opacity="1" Id="4345a7f7-cd39-4bd9-94a9-2245504bcdc3" />
+                                                <GridCellData ColumnId="5b2841b6-4622-489d-b25c-6033d78afd08" Value=" erat accusam aliquyam diam..." Opacity="1" Id="4c7c4ab2-699d-4656-b4e8-7271928abefd" />
+                                                <GridCellData ColumnId="5b631957-9ed3-406b-90c3-85138b20429a" Value="12tyggt567" Opacity="1" Id="5baea8bf-9b08-43ae-bbec-57d686734911" />
+                                                <GridCellData ColumnId="6c61da57-0f0e-4175-bb5d-659ffd89df5a" Opacity="1" Id="78985087-7f98-431f-92e7-adef1e49f4fc" />
+                                                <GridCellData ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Value="Alan Smith" Opacity="1" Id="bc2f320e-f1bc-4a36-b5e8-efd26573b497" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="08ff4d94-8173-440e-8852-e33baff10bf5">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="2" Opacity="1" Id="4d9b41f1-33f8-4f5c-8e42-9a2487b2acdc" />
+                                                <GridCellData ColumnId="219a5bf1-0cd0-4ee1-919e-d8f58f5c7f9d" Value=" sea et velit hendrerit..." Opacity="1" Id="cc6f5e59-1cd4-4379-9af3-45a54ae5b1da" />
+                                                <GridCellData ColumnId="5b2841b6-4622-489d-b25c-6033d78afd08" Value=" feugiat amet eleifend est..." Opacity="1" Id="6e79344c-3233-45c9-a002-28214b60ed56" />
+                                                <GridCellData ColumnId="5b631957-9ed3-406b-90c3-85138b20429a" Value="8tyg4gt7574" Opacity="1" Id="d74206c7-3e4b-4d26-a694-47aa4078dbb0" />
+                                                <GridCellData ColumnId="6c61da57-0f0e-4175-bb5d-659ffd89df5a" Opacity="1" Id="da7607f1-738c-4260-97b2-0c86f826beb4" />
+                                                <GridCellData ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Value="Kris A" Opacity="1" Id="d6e11f69-0723-4943-8809-f74375136b41" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="6243ebfe-9db3-411a-9579-f13d8a997dcf">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="3" Opacity="1" Id="287749f2-59d7-4ed7-a7f2-1716e982e47a" />
+                                                <GridCellData ColumnId="219a5bf1-0cd0-4ee1-919e-d8f58f5c7f9d" Value=" lorem duo eirmod nostrud..." Opacity="1" Id="c54907f1-96c3-45a1-bb78-540435e62fff" />
+                                                <GridCellData ColumnId="5b2841b6-4622-489d-b25c-6033d78afd08" Value=" duis tation et dolore..." Opacity="1" Id="8531382d-f414-4dc3-b230-4885d7bd331d" />
+                                                <GridCellData ColumnId="5b631957-9ed3-406b-90c3-85138b20429a" Value="15tyggt6744" Opacity="1" Id="f0958382-ced5-49db-bff3-97701a9e81b8" />
+                                                <GridCellData ColumnId="6c61da57-0f0e-4175-bb5d-659ffd89df5a" Opacity="1" Id="ea2c2aeb-d0a9-4864-af2d-2b78912184f4" />
+                                                <GridCellData ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Value="Edgar Edgarov" Opacity="1" Id="f65a9edf-272a-4f3a-ba31-951d5f8d0ed4" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="b8670b30-5a2e-4ef3-874b-6db26180ef5c">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="4" Id="0983ebf0-aaa0-4a8c-b8f2-fa6a5232d857" />
+                                                <GridCellData ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Value="Gosho Bagera" Opacity="1" Id="e02bc581-2018-40b7-8991-fa55c61106d1" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="bf6501f3-91c8-4160-aeea-688e910fc497">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="5" Id="018122cb-7ae4-4746-b5d5-5da14a0a6668" />
+                                                <GridCellData ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Value="Frustrated Person" Opacity="1" Id="166f40a1-5672-4709-8e5b-06f6c367c50f" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="109ca763-8ef9-44c8-a98b-2fad09aba309">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="6" Id="e176de71-5094-4213-8c66-7ca11e4926d4" />
+                                                <GridCellData ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Value="Frustrated Forever" Opacity="1" Id="22f6941f-ba53-40bc-ad13-89bece9410c2" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="887bb1f8-27e1-420b-8fc5-7f73992a7396">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="7" Id="86d892bf-b926-46d2-9276-c8be526f4d95" />
+                                                <GridCellData ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Value="Mitko Mitkov" Opacity="1" Id="0dc3fc7e-4bd0-4bb8-9cc9-d28c29cbbcef" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="c2fe6cce-d9f4-4b9c-a4f6-da567b1c4630">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="8" Id="ac0d86d0-3b99-4372-9341-b3d05b1a860a" />
+                                                <GridCellData ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Value="Elena Rozbergg" Opacity="1" Id="ff81963e-16cb-419f-bafe-a55856eb1ae9" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="a258d0a1-6240-44fe-ae19-46f8398b246e">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="9" Id="f86c170a-9944-422a-a2b7-9d1f00bccac9" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="07adcd81-c15e-4a19-b401-67868f1aaa27">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="10" Id="01eb9ce6-80e4-4f74-a2f3-539a73a545ec" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="71c28f4b-67a6-40e1-a45f-ddc21ed11337">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="11" Id="bf8fd017-e9b3-47c8-b567-997e26550671" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="bf8bdf2e-0af9-45d8-8633-e447f27dc67b">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="12" Id="a6a77ff5-e807-4e81-9b60-d5b7c56a1df4" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                        <GridRow Height="32" Id="86d398f1-6a68-49da-bbd3-4954aea0aa8f">
+                                            <GridRow.Data>
+                                                <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="13" Id="cc850a32-033e-4eca-9f19-5628efff0d24" />
+                                            </GridRow.Data>
+                                        </GridRow>
+                                    </Grid.Rows>
+                                </Grid>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;24&quot; FontFamily=&quot;Arial Black&quot; FontWeight=&quot;Bold&quot; &gt;Manage active articles&lt;/Run&gt;" Id="3534433c-6e59-465f-984c-5e944703526a" Panel.Bounds="25,99,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <TextBox Id="a92705f6-42b3-436f-b027-863095acaf48" Panel.Bounds="837,112,164{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="Find article:" Id="f63d7563-3872-40f8-86da-2dcb92f9a63c" Panel.Bounds="762,115,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="5076b8ca-dc15-414d-968b-c9545f03eff2" Panel.Bounds="845,187,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="62964460-fbe1-497e-a9df-f1682bea12ab" Panel.Bounds="881,187,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="b237bbb4-14ec-4396-adcf-12e376873f8e" Panel.Bounds="876,186,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="22d88e4e-3c9b-42b7-8fd5-3f34aeb33ab0" Panel.Bounds="845,219,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="25f34f19-135f-4743-a5ff-6c8842082fa2" Panel.Bounds="845,251,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="b9f076ef-f2fb-4c68-bd30-5685fc74c5d6" Panel.Bounds="845,282,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="3b5c0d16-ec75-4668-9cc6-ecb3a572dfe5" Panel.Bounds="845,315,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="eecd18d4-d388-454b-bdfe-2d09effec143" Panel.Bounds="845,346,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="c81adb13-7f6f-4824-8cee-f3d01d37dcd4" Panel.Bounds="845,378,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="a00da125-093c-4011-96e5-3f6cd10c11ae" Panel.Bounds="845,411,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="ebd7da51-c819-47d3-a414-afe66e79a220" Panel.Bounds="845,442,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="5d862158-97e9-48a9-b974-39053be4832f" Panel.Bounds="845,474,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="bc0f99f7-312b-4a20-9cde-d2008acf0e6c" Panel.Bounds="845,506,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="65c0eed4-5470-46fd-9424-42b8cb93d843" Panel.Bounds="845,537,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FF349C42&quot; &gt;Edit&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="9ad28ab9-1b42-4532-a41b-00d0cac31d14" Panel.Bounds="845,570,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="7e82d711-fc19-428a-bc90-0bb5486dcf31" Panel.Bounds="876,218,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="579f851e-d5db-4d48-bb30-2b75d43bb857" Panel.Bounds="876,250,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="1853c9a5-aace-41ad-aeb1-a71374d88d77" Panel.Bounds="876,281,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="24611efa-2753-4fcf-93b2-db5b5a4be98b" Panel.Bounds="876,314,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="49cd49ec-2a2e-4fd5-a1c8-56cb15f17999" Panel.Bounds="876,345,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="3d69a2e6-f3ed-41b0-bcd7-971fb1553d20" Panel.Bounds="876,376,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="30444d60-ef7e-474c-88b9-d7e26fe5b2c5" Panel.Bounds="876,409,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="84cf181b-e2aa-4e46-92e5-36c9197bfb5e" Panel.Bounds="876,440,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="b7370658-7c72-46aa-ba83-aa7cb899cb5e" Panel.Bounds="876,472,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="0352240b-3ea7-4e8f-a00c-288f2220dbdf" Panel.Bounds="876,504,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="0a3e10ff-d8a0-427b-80f3-3ba10a3775cf" Panel.Bounds="876,535,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="|" FontFamily="Arial Black" FontStyle="Normal" Id="1d0c8b27-749b-4baa-bd8f-53ad49242de0" Panel.Bounds="876,568,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="7557aee8-a999-4613-a204-7fb631560d54" Panel.Bounds="881,218,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="4eed9376-3dc1-4c79-a912-885d9053b773" Panel.Bounds="881,250,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="2071a208-b6fe-4cdf-b122-9e18f5eaca65" Panel.Bounds="881,281,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="d0c757c2-3d82-4b34-b73f-6f91e6500774" Panel.Bounds="881,314,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="33e02032-1707-4d2a-9c68-81000a78247c" Panel.Bounds="881,345,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="19d4db8c-06ed-416c-9c57-221da896cc5f" Panel.Bounds="882,377,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="96821959-4a00-47d7-8afa-2f1865768411" Panel.Bounds="881,410,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="55d0ce70-0802-4c94-b9a7-8d26fd148a7e" Panel.Bounds="881,441,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="6fb5e196-6f93-4764-a152-77050cf43360" Panel.Bounds="881,473,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="24ce131d-6ce6-463d-8fd1-0670b1d14567" Panel.Bounds="882,505,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="5d8a555d-edf3-4b40-8970-c4acb646ab63" Panel.Bounds="882,536,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFAE0000&quot; &gt;Delete&lt;/Run&gt;" FontFamily="Arial Black" FontStyle="Underline" Id="fe7129a3-a42c-46a9-b74c-dc533c10fc71" Panel.Bounds="882,570,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="200" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="aff704a1-55a4-4966-94cc-f7eb3a864a55" Panel.Bounds="581,187,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="12" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="33b34d9f-b135-4cba-9eaf-b6c4302f5132" Panel.Bounds="585,219,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="0" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="57d26d2b-e159-4b08-ad07-bc9c83c6ef65" Panel.Bounds="590,251,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="13" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="06bfe7cf-7977-4c3f-bc91-6cb620f4bd21" Panel.Bounds="584,282,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="45" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="9db38384-3652-4f58-8a75-a68125e72913" Panel.Bounds="584,314,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="4" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="bbfd404c-7c48-458f-8827-de37aebc87b5" Panel.Bounds="588,346,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="8" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="a8398fb1-1d65-40e6-bd71-99605b305941" Panel.Bounds="589,378,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="123" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="5626eb16-a737-4043-8adc-60abbb35e45b" Panel.Bounds="579,410,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="56" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="b2477935-a5e2-40b3-a562-e20e6f9870b9" Panel.Bounds="585,441,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="4" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="1a68926b-3270-42cd-8efd-97e5052d3e21" Panel.Bounds="588,474,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="0" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="b508dc9a-daee-4fa6-b6cf-97609d0322be" Panel.Bounds="589,506,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="78" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="f9f57f77-0c27-4bbf-8a20-257e9c20beef" Panel.Bounds="585,538,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="104" Foreground="#FF000000" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="59e450ee-f0d5-4a4a-8b16-967a09a056b4" Panel.Bounds="581,570,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="1" Foreground="#FF830000" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="eba79a32-ef1a-4c75-8fea-d3c360ee3bcd" Panel.Bounds="417,681,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="2" Foreground="#FF000000" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="cf92f4ee-904d-43a9-88bf-26eca1680fdf" Panel.Bounds="438,681,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="3" Foreground="#FF000000" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="3d21d2c2-b964-474a-b76c-a9d9b684e802" Panel.Bounds="460,681,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="4" Foreground="#FF000000" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="1635f40b-4172-4932-93ff-cedd3fef2bc1" Panel.Bounds="481,681,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="5" Foreground="#FF000000" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="a4ee75cf-e04a-4543-a049-0f732e7f5ac6" Panel.Bounds="502,681,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="6" Foreground="#FF000000" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="a3e4615e-ba3f-4dfc-b1a2-727d0d0b9b0f" Panel.Bounds="524,681,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Link Text="..." Foreground="#FF000000" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="266f786b-b138-4b13-bccc-5255a035fd07" Panel.Bounds="544,681,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Icon Color="#FF000000" CatalogId="fa-angle-double-right" Id="6d8cc07f-37ed-4eb0-ad6c-84fd63c75f43" Panel.Bounds="573,680,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8e9fe9ec-d5cc-4dd0-9568-8788ab83a810">
+                            <Add.Item>
+                                <Icon Color="#FF000000" CatalogId="fa-angle-double-left" IsEnabled="False" Id="d40a4e1f-6349-4b1b-b12d-733f633a0a83" Panel.Bounds="372,678,35{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
